@@ -9,7 +9,7 @@ The script uses a simple chat-completion HTTP client and targets the `sarvam-m` 
 
 Prereqs
 - Python 3.8+
-- A Sarvam-compatible Chat Completion endpoint and API key (set via env vars below)
+- A Servam chat api key, (Register yourself and get it from https://www.sarvam.ai/)
 
 Environment variables
 - `SARVAM_API_URL` — URL for the chat completions endpoint (required)
