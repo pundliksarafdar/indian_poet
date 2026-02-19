@@ -57,6 +57,10 @@ run_agents.bat --topic "monsoon memories"
 Outputs
 - `outputs/poem_multilingual.txt` — the poem with language tags and the Hindi translation.
 
+Demo
+<video controls src="Demo.mp4" title="Demo"></video>
+
+
 Notes
 - The script expects the endpoint to follow an OpenAI-style chat completion schema (POST JSON with `model` and `messages`, returning `choices[0].message.content`). If your provider differs, update `agents.ChatClient.chat_completion` accordingly.
 
