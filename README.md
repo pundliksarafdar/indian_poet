@@ -1,4 +1,4 @@
-# Multilingual Poem Agents (LangGraph-style)
+# POET: Multilingual Poem Agents (LangGraph-style)
 
 This small Python project demonstrates three agents collaborating to create a poem:
 - `agent_marathi` writes lines in Marathi
@@ -22,7 +22,7 @@ Using a .env file
 Example `.env` (see `.env.example`):
 
 ```
-SARVAM_API_URL=https://api.example.com/v1/chat/completions
+SARVAM_API_BASE_URL=https://api.sarvam.ai/v1
 SARVAM_API_KEY=sk-xxx
 ```
 
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 Run
 
 ```bash
-set SARVAM_API_URL=https://api.example.com/v1/chat/completions
+set SARVAM_API_BASE_URL=https://api.sarvam.ai/v1
 set SARVAM_API_KEY=sk-xxx
 python agents.py --topic "monsoon memories" --turns 6
 ```
@@ -74,4 +74,3 @@ Batch example:
 ```cmd
 run_agents.bat
 ```
-# indian_poet
